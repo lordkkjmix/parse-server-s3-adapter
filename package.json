@@ -1,6 +1,6 @@
 {
   "name": "@parse/s3-files-adapter",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "AWS S3 adapter for parse-server",
   "main": "index.js",
   "scripts": {
@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/parse-community/parse-server-s3-adapter#readme",
   "dependencies": {
-    "aws-sdk": "2.59.0",
-    "parse": "2.10.0"
+    "aws-sdk": "2.761.0",
+    "parse": "2.17.0"
   },
   "devDependencies": {
-    "codecov": "3.6.5",
+    "codecov": "3.7.1",
     "config": "3.2.4",
     "eslint": "6.7.2",
     "eslint-config-airbnb-base": "14.0.0",
