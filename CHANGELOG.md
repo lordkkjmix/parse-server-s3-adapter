@@ -1,3 +1,22 @@
+## [2.0.1](https://github.com/parse-community/parse-server-s3-adapter/compare/2.0.0...2.0.1) (2023-04-21)
+
+
+### Bug Fixes
+
+* Security upgrade xml2js and aws-sdk ([#181](https://github.com/parse-community/parse-server-s3-adapter/issues/181)) ([66fad32](https://github.com/parse-community/parse-server-s3-adapter/commit/66fad32dd94b5280f29a12fbdf24d9427eb8c2eb))
+
+# [2.0.0](https://github.com/parse-community/parse-server-s3-adapter/compare/1.6.3...2.0.0) (2023-04-21)
+
+
+### Features
+
+* Add support for Node 16, 18, remove support for Node 12, 15 ([#189](https://github.com/parse-community/parse-server-s3-adapter/issues/189)) ([993534c](https://github.com/parse-community/parse-server-s3-adapter/commit/993534c57cc7009363a740bbbb04a0e4e56c7f0c))
+
+
+### BREAKING CHANGES
+
+* Removes support for Node 12 and 15 which have reached their End-of-Life date and are not officially maintained anymore. ([993534c](993534c))
+
 ## [1.6.3](https://github.com/parse-community/parse-server-s3-adapter/compare/1.6.2...1.6.3) (2023-04-21)
 
 
