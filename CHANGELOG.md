@@ -1,3 +1,22 @@
+# [4.1.0](https://github.com/parse-community/parse-server-s3-adapter/compare/4.0.0...4.1.0) (2025-01-03)
+
+
+### Features
+
+* Upgrade @aws-sdk/client-s3 from 3.668.0 to 3.709.0 ([#235](https://github.com/parse-community/parse-server-s3-adapter/issues/235)) ([a344626](https://github.com/parse-community/parse-server-s3-adapter/commit/a344626b37946a8bed680740a6752c5903389509))
+
+# [4.0.0](https://github.com/parse-community/parse-server-s3-adapter/compare/3.0.0...4.0.0) (2025-01-01)
+
+
+### Features
+
+* Migrate S3 Client from AWS SDK v2 to v3  ([#231](https://github.com/parse-community/parse-server-s3-adapter/issues/231)) ([8ac6014](https://github.com/parse-community/parse-server-s3-adapter/commit/8ac6014d2945e211c1c6cddd3675037c49729cca))
+
+
+### BREAKING CHANGES
+
+* The AWS S3 credentials are now set under `s3overrides.credentials` instead of directly under the `s3overrides` key; see the [migration guide](https://github.com/parse-community/parse-server-s3-adapter?#migration-guide-from-3x-to-4x) for more details. ([8ac6014](8ac6014))
+
 # [3.0.0](https://github.com/parse-community/parse-server-s3-adapter/compare/2.2.0...3.0.0) (2024-10-22)
 
 
